@@ -62,22 +62,25 @@
 .content {
   display: grid;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   background-color: #3939dd;
 }
 
 .three {
   grid-area: 1 / 3 / 3 / span 2;
+  align-items: center;
 }
 
 .six {
   grid-area: 3 / 1 / span 2 / span 2;
+  align-items: center;
 }
 
 .nine {
   grid-area: 4 / 3 / span 2 / span 2;
+  align-items: center;
 }
 
 .footer {
